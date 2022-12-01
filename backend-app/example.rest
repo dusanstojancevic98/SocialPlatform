@@ -1,0 +1,25 @@
+GET http://localhost:5000/api/friendship/2
+
+###
+
+POST http://localhost:5000/api/friendship/1/2
+
+###
+PUT http://localhost:5000/api/friendship/4
+
+###
+DELETE http://localhost:5000/api/friendship/4
+
+###
+POST http://localhost:5000/api/messages/all
+
+###
+POST http://localhost:5000/api/messages/
+
+content-type: application/json
+
+{
+    "content": "Hoces li",
+    "friendshipId": 1,
+    "senderId": 1
+}

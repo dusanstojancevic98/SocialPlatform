@@ -1,0 +1,12 @@
+.center {
+  text-align: center;
+}
+.box {
+  display: inline-block;
+}
+.gender {
+  padding-top: 30px !important;
+}
+.gender-bottom {
+  padding-bottom: 30px;
+}
